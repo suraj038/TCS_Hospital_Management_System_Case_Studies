@@ -164,7 +164,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 Project Link: [https://github.com/suraj038/TCS_Hospital_Management_System_Case_Studies](https://github.com/suraj038/TCS_Hospital_Management_System_Case_Studies)
-Gmail: [surajsingh98450@gmail.com]
+## Mail
+Gmail: surajsingh98450@gmail.com
 
 
 
