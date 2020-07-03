@@ -18,14 +18,14 @@
   <p align="center">
 HMS is basic webapplication using flask. The Documentation is given with the code. You can use this for mini-project.
     <br />
-    <a href="https://github.com/dhina016/HMS"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/suraj038/TCS_Hospital_Management_System_Case_Studies"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/dhina016/HMS/issues">Report Bug</a>
+    <a href="https://github.com/suraj038/TCS_Hospital_Management_System_Case_Studies/issues">Report Bug</a>
     ·
-    <a href="https://github.com/dhina016/HMS/issues">Request Feature</a>
+    <a href="https://github.com/suraj038/TCS_Hospital_Management_System_Case_Studies/issues">Request Feature</a>
     .
-    <a href="https://www.instagram.com/anintrovertinlove/">Instagram</a>
+    <a href="https://www.instagram.com/surajsurya038/">Instagram</a>
   </p>
 </p>
 
@@ -39,7 +39,6 @@ HMS is basic webapplication using flask. The Documentation is given with the cod
 * [Getting Started](#getting-started)
   * [Installation](#installation)
 * [Usage](#usage)
-* [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
@@ -48,8 +47,6 @@ HMS is basic webapplication using flask. The Documentation is given with the cod
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-![Product Name Screen Shot][product-screenshot]
   
 HMS is a webapplication using flask. This retail banking is a mini project. You can
 use this project for free. The Documentation is given with the code.If you like this project give stars..
@@ -61,7 +58,6 @@ use this project for free. The Documentation is given with the code.If you like 
 * [Flask](https://flask.palletsprojects.com/en/1.1.x/)
 * [Jinja](https://jinja.palletsprojects.com/en/2.11.x/)
 
-<!-- GETTING STARTED -->
 ## Getting Started
 
 Follow the installation steps to open project without error
@@ -83,41 +79,41 @@ python -m venv venv
 (ii) I've already created. So now you want to activate it. I'm using windows. so I used CMD. Now open the cmd of your current project folder. My project folder is HMS.
 ```sh
 
-D:\flask\HMS> cd venv/Scripts/activate
+D:\flask\TCS_Hospital_Management_System_Case_Studies> cd venv/Scripts/activate
 
 After venv is activated
 
-(venv) D:\flask\HMS>
+(venv) D:\flask\TCS_Hospital_Management_System_Case_Studies>
 
 ```
 (iii) Once you can close the project, this command is user to open the venv again and for deactivation command also given.
 ```sh
 
-D:\flask\HMS>workon venv
+D:\flask\TCS_Hospital_Management_System_Case_Studies>workon venv
 
 If not working again activate your venv
 
-(venv) D:\flask\HMS>
+(venv) D:\flask\TCS_Hospital_Management_System_Case_Studies>
 
 For Deactivating,
 
-D:\flask\HMS> cd venv/Scripts/deactivate
+D:\flask\TCS_Hospital_Management_System_Case_Studies> cd venv/Scripts/deactivate
 
 ```
 6. Install the following requirements by following command.
 ```sh
 
-D:\flask\HMS> pip install -r requirements.txt
+D:\flask\TCS_Hospital_Management_System_Case_Studies> pip install -r requirements.txt
 
 ```
 7. To run the the code, use this command 
 ```sh
 
-D:\flask\HMS>python app.py
+D:\flask\TCS_Hospital_Management_System_Case_Studies>python app.py
 
 or
 
-D:\flask\HMS>flask run
+D:\flask\TCS_Hospital_Management_System_Case_Studies>flask run
 
 ```
 
@@ -136,35 +132,13 @@ D:\flask\HMS>flask run
 ```sh
 url : http://127.0.0.1:5000/login
 Username => admin,
-Password => !1Qqwerty,
+Password => admin,
 
 ```
-
-Credential at hosted site
-* username = executive
-* password = Exec@1
-* username = desk
-* password = Exec@1
-* username = pharmacist
-* password = Exec@1
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-HMS is a webapp. This HMS is very simple to use.
-
-<!-- TEAM -->
-## Team
-
-We created this project for TCS Case Study. Special thanks to my team!!
-1. Gokul - https://github.com/gokulrv4399
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/dhina016/HMS/issues) for a list of proposed features (and known issues).
-
-
+Hospital Management System is a webapp. This HMS is very simple to use.
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -189,7 +163,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Project Link: [https://github.com/dhina016/HMS](https://github.com/dhina016/HMS)
+Project Link: [https://github.com/suraj038/TCS_Hospital_Management_System_Case_Studies](https://github.com/suraj038/TCS_Hospital_Management_System_Case_Studies)
 
 
 
@@ -228,13 +202,6 @@ Project Link: [https://github.com/dhina016/HMS](https://github.com/dhina016/HMS)
 [ss19]: screenshot/ss19.PNG
 [ss20]: screenshot/ss20.PNG
 [ss21]: screenshot/ss21.PNG
-=======
-
-
-
-
-
-
 
 # Sample UI Images:
 
