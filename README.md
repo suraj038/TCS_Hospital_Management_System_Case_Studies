@@ -181,50 +181,39 @@ Project Link: [https://github.com/suraj038/TCS_Hospital_Management_System_Case_S
 [license-url]: https://github.com/dhina016/HMS/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/dhina016/
-[ss1]: screenshot/ss1.PNG
-[ss2]: screenshot/ss2.PNG
-[ss3]: screenshot/ss3.PNG
-[ss4]: screenshot/ss4.PNG
-[ss5]: screenshot/ss5.PNG
-[ss6]: screenshot/ss6.PNG
-[ss7]: screenshot/ss7.PNG
-[ss8]: screenshot/ss8.PNG
-[ss9]: screenshot/ss9.PNG
-[ss10]: screenshot/ss10.PNG
-[ss11]: screenshot/ss11.PNG
-[ss12]: screenshot/ss12.PNG
-[ss13]: screenshot/ss13.PNG
-[ss14]: screenshot/ss14.PNG
-[ss15]: screenshot/ss15.PNG
-[ss16]: screenshot/ss16.PNG
-[ss17]: screenshot/ss17.PNG
-[ss18]: screenshot/ss18.PNG
-[ss19]: screenshot/ss19.PNG
-[ss20]: screenshot/ss20.PNG
-[ss21]: screenshot/ss21.PNG
 
 # Sample UI Images:
-
+# 1.Login Page
 ![](https://github.com/suraj038/TCS_Hospital_Management_System_Case_Studies/blob/master/screenshots/Screenshot%20(218).png)
 
+# 2.Patient Registration
 ![](https://github.com/suraj038/TCS_Hospital_Management_System_Case_Studies/blob/master/screenshots/Screenshot%20(219).png)
 
+# 3.Update Patient
 ![](https://github.com/suraj038/TCS_Hospital_Management_System_Case_Studies/blob/master/screenshots/Screenshot%20(221).png)
 
+# 4.Delete Patient
 ![](https://github.com/suraj038/TCS_Hospital_Management_System_Case_Studies/blob/master/screenshots/Screenshot%20(222).png)
 
+# 5.View All Patients
 ![](https://github.com/suraj038/TCS_Hospital_Management_System_Case_Studies/blob/master/screenshots/Screenshot%20(223).png)
 
+# 6.Search For Patient
 ![](https://github.com/suraj038/TCS_Hospital_Management_System_Case_Studies/blob/master/screenshots/Screenshot%20(224).png)
 
+# 7.Patient Medicines
 ![](https://github.com/suraj038/TCS_Hospital_Management_System_Case_Studies/blob/master/screenshots/Screenshot%20(226).png)
 
+# 8.Issue Medicines
 ![](https://github.com/suraj038/TCS_Hospital_Management_System_Case_Studies/blob/master/screenshots/Screenshot%20(227).png)
 
+# 9.Patient Diagnostics
 ![](https://github.com/suraj038/TCS_Hospital_Management_System_Case_Studies/blob/master/screenshots/Screenshot%20(228).png)
 
+# 10.Conduct Diagnostics
 ![](https://github.com/suraj038/TCS_Hospital_Management_System_Case_Studies/blob/master/screenshots/Screenshot%20(229).png)
 
+# 11.Final Billing
 ![](https://github.com/suraj038/TCS_Hospital_Management_System_Case_Studies/blob/master/screenshots/Screenshot%20(225).png)
 
 
