@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <script src="../static/cities.js"></script>
+
+
+  <title>ABC Hospital Management System</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+ <link rel="stylesheet" href="../static/login.css">
+  <!-- Custom fonts for this template -->
+  <link href="{{ url_for('static', filename='vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+  body {
+  margin: 0;
+  padding: 0;
+  background-color: #3498DB;
+  height: 100vh;
+}
+#login .container #login-row #login-column #login-box {
+  margin-top: 120px;
+  max-width: 600px;
+  height: 320px;
+  border: 4px solid black;
+  background-color: #3498DB;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 50px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+h1{
+  text-align: center;
+}
+
+#nav
+    {
+      margin-left: 500px;
+
+      }
+      #btn {
+        background: #3498DB;
+        border-width: 2px;
+        border-color: black;
+      }
+#nav div 
+      {
+        padding: 20px;
+        }
+
+#get {
+  position: absolute;
+  left: 500px;
+  top: 80px;
+}
+
+.view {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.alert {
+  padding: 20px;
+  background-color: #117a26;
+  color: white;
+}
+.alert1 {
+  padding: 20px;
+  background-color: #940707;
+  color: white;
+}
+
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+.example {
+  width: 800px;
+}
+
+
+</style>
+ 
+</head>
+<body>
+
+
+    <div class="jumbotron" style="height:100px; width:100%; border: 2px solid black; background-color: #74B9FF;">
+       <h1 class="text-center" style="margin-top: -60px;">ABC Hospital Management System</h1>
+          {% if session.login==True %}
+          {% include 'nav.html' %}
+          {% endif %}
+    </div>
+    <div class="container">
+      {% include 'message.html' %}
+      {% block body %} {%endblock%}
+    </div>
+
+</body>
+
+</html>

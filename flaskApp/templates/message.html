@@ -1,0 +1,64 @@
+
+<!-- Flash Message for patient Registered  -->
+{%  if message  %}
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>Patient's Registered Successfully</strong> 
+</div>
+{% endif %}
+
+<!-- Flash Message for Patient data updated  -->
+{%  if updated  %}
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>Patients Data Updated Successfully</strong> 
+</div>
+{% endif %}
+
+<!-- Flash Message for patient delete or removed  -->
+{%  if deleted  %}
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>Patient Removed/Deleted Successfully</strong> 
+</div>
+{% endif %}
+
+<!-- Flash Message for Patient  Search  -->
+{%  if search  %}
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>Patient Found, Success!</strong> 
+</div>
+{% endif %}
+
+<!-- Flash Message for Medicine Issued successfully to particular patients  -->
+{%  if medicine  %}
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>Medicines Issued Successfully!</strong> 
+</div>
+{% endif %}
+
+<!-- Flash Message for Diagnostics added successfully for particilar patients  -->
+{%  if diagnostic  %}
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>Diagnostic Added Successfully!</strong> 
+</div>
+{% endif %}
+
+<!-- Flash Message for final billing, patient discharged successfully  -->
+{%  if finalbilling  %}
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>Patient Discharged Successfully!</strong> 
+</div>
+{% endif %}
+
+<!-- Flash message for all the errors  -->
+{%  if error  %}
+<div class="alert1">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>{{error}}</strong> 
+</div>
+ {% endif %} 
