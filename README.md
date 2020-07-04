@@ -48,7 +48,7 @@ HMS is basic webapplication using flask. The Documentation is given with the cod
 <!-- ABOUT THE PROJECT -->
 ## About The Project
   
-HMS is a webapplication using flask. This retail banking is a mini project. You can
+HMS is a webapplication using flask. This HMS is a mini project. You can
 use this project for free. The Documentation is given with the code.If you like this project give stars..
 
 
